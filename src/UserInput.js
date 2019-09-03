@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class UserInput extends React {
+class UserInput extends Component {
 
   render(){
     return (

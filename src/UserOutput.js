@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
-class UserOutput extends React {
+class UserOutput extends Component {
+
   render(){
+    const { userName } = this.props
     return (
       <div>
-        <p></p>
+        <p>{userName}</p>
         <p></p>
       </div>
     )
